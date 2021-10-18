@@ -1,0 +1,70 @@
+:root {
+	--special-purple:  #5c21b5;
+	--special-green:  #cfff00;
+	--special-pink:  #ee3ec9;
+	--special-orange:  #ef7937;
+}
+
+.bi {
+  /* vertical-align: -.125em; Not needed for <i> tags */
+  fill: currentColor;
+}
+
+.feature-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 4rem;
+	height: 4rem;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	color: #fff;
+	border-radius: .75rem;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  transition: transform .25s ease-in-out;
+  fill: currentColor;
+}
+.icon-link-fwd:hover > .bi {
+  transform: translate(.25rem);
+}
+.icon-link-back:hover > .bi {
+  transform: translate(-.25rem);
+}
+
+.bg-special-purple {
+	background-color: var(--special-purple);
+}
+
+.border-special-purple {
+	border-color:  var(--special-purple);
+}
+
+.cone-icon {
+	color: var(--special-purple);
+	/* stroke: var(--special-purple);
+	stroke-width: 0.2px; */
+}
+
+.cone-icon-text {
+	color: var(--bs-dark);
+}
+
+.disabled-anchor {
+	pointer-events: none;
+}
+
+.small-caps {
+	font-variant: small-caps;
+}
+
+.citymapper-link {
+	color: ;
+}
