@@ -68,3 +68,21 @@
 .citymapper-link {
 	color: ;
 }
+
+.big-underline { /* doesn't work */
+	padding: 30px 0 8px;
+	position: relative;
+}
+
+.big-underline::before {
+	content: "";
+	position: absolute;
+	left:  7%;
+	bottom: 16px;
+	width: 150px;
+	height: 14px;
+	transform: skew(-23deg) translateX(-50%);
+	background: rgb(220, 53, 69);
+	z-index: -1;
+}
+
