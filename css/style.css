@@ -7,6 +7,10 @@ a {
 	color: var(--ball-navy);
 }
 
+.nav-link {
+	color: var(--ball-navy);
+}
+
 .bi {
   /* vertical-align: -.125em; Not needed for <i> tags */
   fill: currentColor;
