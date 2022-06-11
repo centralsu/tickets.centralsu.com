@@ -1,14 +1,14 @@
-	<!doctype html>
+<!doctype html>
 <html lang="en-GB">
 	<head>
 		<!-- Core meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Structured data tags -->
-		<title>Tickets – Central Students’ Union Tickets</title>
+		<title>Too early – Central Students’ Union Tickets</title>
 		<meta name="description" content="Your place to buy tickets for events from Central Students’ Union.">
 		<meta name="author" content="Central Students’ Union">
-		<meta property="og:title" content="Tickets">
+		<meta property="og:title" content="Too early">
 		<meta property="og:description" content="Your place to buy tickets for events from Central Students’ Union.">
 		<meta property="og:url" content="https://tickets.centralsu.com">
 		<meta property="og:locale" content="en_GB">
@@ -21,7 +21,7 @@
 		<meta name="application-name" content="Tickets">
 		<!--CSS -->
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<!--Analytics-->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69JVL068Q"></script>
@@ -32,7 +32,7 @@
 			gtag('config', 'G-Z7H93P8557');
 		</script>
 	</head>
-	<body onload="return random_name()">
+	<body>
 		<main>
 			<div class="container py-3">
 				<header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
@@ -51,112 +51,15 @@
 					<p>Everyone who lives in, works in, or travels through the boroughs of <a href="https://beta.lambeth.gov.uk/enhanced-coronavirus-covid-19-testing-lambeth" target="_blank" class="alert-link">Lambeth</a> or <a href="https://www.wandsworth.gov.uk/health-and-social-care/public-health/coronavirus/surge-testing" target="_blank" class="alert-link">Wandsworth</a> is strongly encouraged to take a PCR test. You should get a test even if you don’t have any symptoms.</p>
 				</div>-->
 
-				<!--<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-					<h1 class="display-4 fw-normal">Ball on a Boat</h1>
-					<p class="fs-5 text-muted">Why you need a ticket to the summer ball.</p>
-				</div>-->
-
-				<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-					<h2 class="display-6 fw-normal">Ball on a Boat tickets</h1>
-					<p class="fs-5 text-muted">Grab your ticket to mark the end of the year.</p>
-				</div>
-
-				<div class="row g-5 mb-5">
-					<div class="feature col-md-3 position-relative">
-						<div class="feature-icon d-inline-flex align-items-center justify-content-center bg-ball-navy text-ball-lilac fs-2 mb-3">
-							<i class="bi bi-moon-stars-fill"></i>
-						</div>
-						<h2>Boat under the stars</h2>
-						<p>We’ve got the <small>MV</small> Pearl of London booked just for us all evening.</p>						
-					</div>
-					<div class="feature col-md-3 position-relative">
-						<div class="feature-icon d-inline-flex align-items-center justify-content-center bg-ball-navy text-ball-lilac fs-2 mb-3">
-							<i class="bi bi-boombox-fill"></i>
-						</div>
-						<h2>Dance floor DJ</h2>
-						<p>As well as open air and seated areas, we’ve got a dance floor on the bottom deck.</p>						
-					</div>
-					<div class="feature col-md-3 position-relative">
-						<div class="feature-icon d-inline-flex align-items-center justify-content-center bg-ball-navy text-ball-lilac fs-2 mb-3">
-							<i class="bi bi-camera-fill"></i>
-						</div>
-						<h2>Free selfie mirror</h2>
-						<p>Grab unlimited prints in your finery all night with our selfie mirror.</p>						
-					</div>
-					<div class="feature col-md-3 position-relative">
-						<div class="feature-icon d-inline-flex align-items-center justify-content-center bg-ball-navy text-ball-lilac fs-2 mb-3">
-							<i class="bi bi-cash-stack"></i>
-						</div>
-						<h2>A mighty bar tab</h2>
-						<p>Make the most of all three bars with the huge chunk of cash we’ve put down.</p>						
-					</div>
-				</div>
-
-				<div class="row g-5">
-					<div class="col-md-7 col-lg-8">
-						<h4 class="mb-3">Attendee details</h4>
-						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" class="needs-validation" novalidate>
-							<input type="hidden" name="cmd" value="_s-xclick">
-							<input type="hidden" name="hosted_button_id" value="8CDXB5MLL38ZU">
-							<div class="row g-3">
-								<div class="col-12">
-									<input type="hidden" name="on1" value="Name">
-									<label for="ticketName" class="form-label">Name</label>
-									<input required type="text" name="os1" maxlength="200" class="form-control" id="ticketName" aria-describedby="ticketNameHelp">
-									<div class="form-text" id="ticketNameHelp">This needs to match the name on your proof of age ID.</div>
-									<div class="invalid-feedback">Sorry, what’s your name?</div>
-								</div>
-								<div class="col-md-6">
-									<input type="hidden" name="on0" value="Ticket type">
-									<label for="ticketType" class="form-label">Student or guest?</label>
-									<select name="os0" class="form-select" id="ticketType">
-										<option value="Central student">Central student</option>
-										<option value="Guest">Guest</option>
-									</select>
-								</div>
-								<div class="col-md-6">
-									<input type="hidden" name="on2" value="Student number">
-									<label for="ticketStuNum" class="form-label">Student number</label>
-									<input required type="text" name="os2" pattern="[0-9]{6}" minlength="6" maxlength="6" placeholder="183631" class="form-control" id="ticketStuNum">
-									<div class="form-text" id="ticketStuNumHelp">If you’re a guest, this should be your friend’s Central student number.</div>
-									<div class="invalid-feedback">What’s your six-digit student number?</div>
-								</div>
-
-								<hr class="mt-4 mb-3">
-								<button class="btn btn-ball-navy text-white btn-lg w-100" name="submit" alt="Continue to checkout">Continue to checkout</button>
-								<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-							</div>
-						</form>
-
-						<p class="col-md-12 small text-muted">Your payment will be processed securely by PayPal under their <a href="https://www.paypal.com/uk/webapps/mpp/ua/servicedescription-full?locale.x=en_GB" target="_blank">terms of use</a> and <a href="https://www.paypal.com/uk/webapps/mpp/ua/privacy-full?locale.x=en_GB" target="_blank">privacy statement</a>. You do not need a PayPal account, as debit and credit cards are also accepted. Your financial details won’t be shared with us.</p>
-					</div>
-					<div class="col-md-5 col-lg-4 order-md-last">
-						<h4 class="mb-3">Your basket</h4>
-						<ul class="list-group mb-3">
-							<li class="list-group-item d-flex justify-content-between lh-sm">
-								<div>
-									<h6 class="my-0">Ball on a Boat ticket</h6>
-									<small class="text-muted">Your permission to come aboard the summer ball boat.</small>
-								</div>
-								<span class="text-muted">£28</span>
-							</li>
-							<!--<li class="list-group-item d-flex justify-content-between lh-sm">
-								<div>
-									<h6 class="my-0">Spare wristband</h6>
-									<small class="text-muted">We’ll give away any remaining wristbands.</small>
-								</div>
-								<span class="text-muted">Memories</span>
-							</li>-->
-							<li class="list-group-item d-flex justify-content-between">
-								<span>Total (GBP)</span>
-								<strong>£28</strong>
-							</li>
-						</ul>
-						<div class="col d-flex align-items-start">
-							<div class="text-danger flex-shrink-0 me-1">
-								<i class="bi bi-exclamation-circle-fill me-1"></i>
-							</div>
-							<div class="text-danger">Guests need to be accompanied by a current Central student.</div>
+				<div class="pricing-header pt-3 pb-md-4 mx-auto">
+					<div class="col d-flex align-items-start">
+						<h1 class="display-4 fw-normal text-ball-navy flex-shrink-0 me-1">
+							<i class="bi bi-question-circle-fill me-3"></i>
+						</h1>
+						<div class="col-lg-8">
+							<h1 class="display-4 fw-normal text-ball-navy">You’re a bit early</h1>
+							<p class="fs-5">Sorry, tickets haven’t gone on sale yet.</p>
+							<p class="fs-5">Come back soon to buy your ticket.</p>
 						</div>
 					</div>
 				</div>
@@ -171,32 +74,6 @@
 				</footer>
 			</div>
 		</main>
-		<!-- Random name generator -->
-		<script type="text/javascript">
-			function random_name() {
-				var names = ['Hugh Bonneville', 'Judi Dench', 'Christopher Eccleston', 'Carrie Fisher', 'Martin Freeman', 'Dawn French', 'Sonia Friedman', 'Andrew Garfield', 'Michael Grandage', 'Kit Harrington', 'Cameron Mackintosh', 'James Nesbitt', 'Graham Norton', 'Laurence Olivier', 'Harold Pinter', 'Vanessa Redgrave', 'Tony Robinson', 'Jennifer Saunders', 'Catherine Tate', 'Zoë Wanamaker'];
-				name = names[Math.floor(Math.random() * names.length)];
-				document.getElementById('ticketName').setAttribute("placeholder", name)
-			}
-		</script>
-		<!-- Form validation engine to disable submission with invalid field -->
-		<script>
-			(function () {
-				'use strict'
-				var forms = document.querySelectorAll('.needs-validation')
-				Array.prototype.slice.call(forms)
-					.forEach(function (form) {
-						form.addEventListener('submit', function (event) {
-							if (!form.checkValidity()) {
-								event.preventDefault()
-								event.stopPropagation()
-							}
-
-							form.classList.add('was-validated')
-						}, false)
-					})
-			})()
-		</script>
 		<!-- JS import -->
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 	</body>
