@@ -1,8 +1,6 @@
 :root {
-	--special-purple:  #5c21b5;
-	--special-green:  #cfff00;
-	--special-pink:  #ee3ec9;
-	--special-orange:  #ef7937;
+	--ball-lilac:  #ead9ef;
+	--ball-navy:  #002564;
 }
 
 .bi {
@@ -41,6 +39,56 @@
 
 .bg-special-purple {
 	background-color: var(--special-purple);
+}
+
+.bg-ball-lilac {
+	background-color: var(--ball-lilac);
+}
+
+.bg-ball-navy {
+	background-color: var(--ball-navy);
+}
+
+.text-ball-lilac {
+	color: var(--ball-lilac);
+}
+
+.text-ball-navy {
+	color: var(--ball-navy);
+}
+
+.btn-outline-ball-navy {
+	color: var(--ball-navy);
+	border-color: var(--ball-navy);
+}
+
+.btn-outline-ball-navy:hover {
+	color: var(--ball-lilac);
+	background-color: var(--ball-navy);
+	border-color: var(--ball-navy);
+}
+
+.btn-outline-ball-navy:active {
+	color: var(--ball-lilac);
+	background-color: var(--ball-navy);
+	border-color: var(--ball-navy);
+}
+
+.btn-outline-ball-lilac {
+	color: var(--ball-lilac);
+	border-color: var(--ball-lilac);
+}
+
+.btn-outline-ball-lilac:hover {
+	color: var(--ball-navy);
+	background-color: var(--ball-lilac);
+	border-color: var(--ball-lilac);
+}
+
+.btn-outline-ball-lilac:active {
+	color: var(--ball-navy);
+	background-color: var(--ball-lilac);
+	border-color: var(--ball-lilac);
 }
 
 .border-special-purple {
@@ -87,7 +135,7 @@
 }
 
 .card-cover {
-	background-repeat:  no-repeat;
+	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 }
