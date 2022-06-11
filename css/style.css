@@ -3,6 +3,10 @@
 	--ball-navy:  #002564;
 }
 
+a {
+	color: var(--ball-navy);
+}
+
 .bi {
   /* vertical-align: -.125em; Not needed for <i> tags */
   fill: currentColor;
@@ -55,6 +59,18 @@
 
 .text-ball-navy {
 	color: var(--ball-navy);
+}
+
+.btn-ball-navy {
+	background-color: var(--ball-navy);
+}
+
+.btn-ball-navy:hover {
+	background-color: #0a58ca;
+}
+
+.btn-ball-navy:active {
+	background-color: #0a58ca;
 }
 
 .btn-outline-ball-navy {
